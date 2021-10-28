@@ -166,16 +166,6 @@ a{
 
 }
 
-.col-2-img{
-
-    display: flex; 
-    
-    justify-content: center;
-    
-    align-items: center;
-
-}
-
 .btn{
 
     display: inline-block;
