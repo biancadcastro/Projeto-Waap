@@ -124,9 +124,7 @@ a{
 
 .row{
 
-    height: 400px;
-
-    padding: 30px;
+    padding: 0 30px;
 
     display: flex;
 
@@ -151,6 +149,8 @@ a{
     max-width: 90%;
 
     padding: 50px 0;
+
+    align-items: center;
 
 }
 
@@ -201,7 +201,7 @@ a{
 
         left: 0;
 
-        background: #c27dff;
+        background: aquamarine;
 
         width: 100%;
 
