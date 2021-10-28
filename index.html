@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+
+    <title>Waap</title>
+
+</head>
+
+<body>
+    
+    <header>
+
+        
+        <div class="container">
+            
+            
+            <div class="navbar">
+                
+                <div class="logo">
+                    
+                    
+                    <a href="index.html"><img src="images/LGBT_txt.png" alt="lgbtquia+.png" width="125px"></a>
+                    
+                </div>
+                
+                <nav>
+                    
+                    
+                    <ul class="MenuItems">
+                        
+                        <li>
+                            
+                            <a href="">Sobre nós</a>
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <a href="">Nos apoie</a>
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <a href="">Bandeiras</a>
+                            
+                        </li>
+                        
+                    </ul>
+                    
+                </nav>
+                
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                
+            </div>
+
+            <div class="row">
+
+                <div class="col-2">
+
+                    <h1>
+
+                        Nossa principal bandeira
+
+                    </h1>
+
+                    <p>A nossa principal bandeira, que tambem é a mais conhecida pelo mundo e representa toda a comunidade lgbtquia+, é a bandeira arco-iris! <br> Essa bandeira foi criada em criada em 1979 pelo ativista gay Gilbert Baker a pedido do político homossexual Harvey Milk para representar a Comunidade Gay, e ela acabou por se tornar um dos principais símbolos do movimento LGBT.</p>
+
+                    <a href="" class="btn">Veja mais sobre!</a>
+
+                </div>
+
+                <div class="col-2-img">
+
+                    <img src="images/Flag.png" alt="bandeira.png">
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-2-img">
+
+                    <img src="images/armario.png" alt="">
+
+                </div>
+
+                <div class="col-2">
+
+                    <h1>Vergonha ou medo?</h1>
+
+                    <p>Hoje em dia, muitos membros da comunidade tem medo ou vergonha de se assumir, seja por preconceito por parte da familia, ou dos proprios amigos.<br>No ano de 2020, de acordo com o relatório da Associação Internacional de Lésbicas, Gays, Bissexuais, Transgêneros e Intersexuais (ILGA), o Brasil ocupa o primeiro lugar nas Américas em quantidade de homicídios de pessoas LGBTs e também é o líder em assassinato de pessoas trans no mundo.</p>
+
+                    <!--https://www.brasildefato.com.br/2021/05/17/dia-internacional-contra-a-lgbtfobia-mortes-foram-subnotificadas-no-ultimo-ano-->
+                    <a href="" class="btn">Leia mais</a>
+
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </header>
+    
+    <script>
+
+        let MenuItems = document.querySelector(".MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            
+            if(MenuItems.style.maxHeight == "0px") {
+
+                MenuItems.style.maxHeight = "200px";
+
+            } else {
+
+                MenuItems.style.maxHeight = "0px";
+
+            }
+
+        }
+
+    </script>
+    
+</body>
+
+</html>
