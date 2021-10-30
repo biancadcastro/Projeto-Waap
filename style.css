@@ -156,7 +156,7 @@ a{
 
 .row .col-2 h1{
 
-    color: aquamarine;
+    color: #FFCC00;
 
     font-size: 40px;
 
@@ -170,7 +170,7 @@ a{
 
     display: inline-block;
 
-    background: aquamarine;
+    background: #FFCC00;
 
     color: #fff;
 
@@ -305,7 +305,7 @@ a{
 
     content: '';
 
-    background: aquamarine;
+    background: #FFCC00;
 
     width: 80px;
 
@@ -331,7 +331,7 @@ abbr {
 
 h4 {
 
-    color: aquamarine;
+    color: #FFCC00;
 
     margin: 10px 0;
 
@@ -345,7 +345,7 @@ h4 {
 
 .title-colors{
 
-    color: #a582ff;
+    color: #FFCC00;
 
 }
 
@@ -363,7 +363,7 @@ h4 {
 
 h2, h5{
 
-    color: aquamarine;
+    color: #FFCC00;
 
 }
 
@@ -377,7 +377,7 @@ h2, h5{
 
     margin: 20px;
 
-    color: aquamarine;
+    color: #FFCC00;
 
 }
 
@@ -408,7 +408,7 @@ h2, h5{
 
         left: 0;
 
-        background: aquamarine;
+        background: #FFCC00;
 
         width: 100%;
 
@@ -496,7 +496,7 @@ h2, h5{
 
     font-size: 34px;
 
-    color: aquamarine;
+    color: #FFCC00;
 
 }
 
