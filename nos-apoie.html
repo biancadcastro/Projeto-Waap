@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+
+    <title>Nos apoie</title>
+
+</head>
+
+<body>
+    
+    <header>
+
+        
+        <div class="container">
+            
+            
+            <div class="navbar">
+                
+                <div class="logo">
+                    
+                    
+                    <a href="index.html"><img src="images/LGBT_txt.png" alt="lgbtquia+.png" width="125px"></a>
+                    
+                </div>
+                
+                <nav>
+                    
+                    
+                    <ul class="MenuItems">
+                        
+                        <li>
+                            
+                            <a href="sobre-nos.html">Sobre nós</a>
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <a href="nos-apoie.html">Nos apoie</a>
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <a href="bandeiras.html">Bandeiras</a>
+                            
+                        </li>
+                        
+                    </ul>
+                    
+                </nav>
+                
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                
+            </div>
+            
+            
+            
+        </div>
+        
+    </header>
+    
+    <div class="container">
+        
+        <div class="row">
+
+            <div class="col-2">
+
+                <img src="images/no money.png" alt="">
+
+            </div>
+
+            <div class="col-2">
+
+                <h1>Nosso propósito</h1>
+
+                <p>Nosso propósito nunca foi criar um projeto com fins lucrativos, nosso unico e fixo objetivo é dar voz e visibilidade para estas pessoas que sempre foram marginalizadas pela sociedade! independente da cor, da sexualidade, do seu gênero ou da sua etinia, somos todos seres humanos, cada um com suas peculiaridades e seus defeitos que nos tornam especiais!</p>
+            
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <h1>Como funciona?</h1>
+
+                <p>Nosso projeto é baseado em QR codes nos quais quando você os escaneia, você é automaticamente direcionado a uma bandeira da comunidade! cada bandeira possuira algumas informações basicas como o nome do criador ou o significado das cores!</p>
+
+                <br>
+
+                <p>Para nos apoiar é bem simples, ao clicar no link abaixo, você sera redirecionado a tela de download dos QR codes, dentro da pasta, existe um arquivo com as instruções para impressão dos QR codes, após a impressão basta você os colar em lugares significativos para que mais pessoas possão os escanear e conhecer nosso projeto!</p>
+
+                <a href="" class="btn">Clique aqui para baixar!</a>
+            
+            </div>
+
+            <div class="col-2">
+
+                <img src="images/QR codes.png" alt="">
+
+            </div>
+
+
+        </div>
+        
+    </div>
+    
+    
+    
+    <script>
+
+        let MenuItems = document.querySelector(".MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            
+            if(MenuItems.style.maxHeight == "0px") {
+
+                MenuItems.style.maxHeight = "200px";
+
+            } else {
+
+                MenuItems.style.maxHeight = "0px";
+
+            }
+
+        }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
