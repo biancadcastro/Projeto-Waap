@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+
+    <title>Sobre nós</title>
+
+</head>
+
+<body>
+    
+    <header>
+
+        
+        <div class="container">
+            
+            
+            <div class="navbar">
+                
+                <div class="logo">
+                    
+                    
+                    <a href="index.html"><img src="images/LGBT_txt.png" alt="lgbtquia+.png" width="125px"></a>
+                    
+                </div>
+                
+                <nav>
+                    
+                    
+                    <ul class="MenuItems">
+                        
+                        <li>
+                            
+                            <a href="sobre-nos.html">Sobre nós</a>
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <a href="nos-apoie.html">Nos apoie</a>
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <a href="bandeiras.html">Bandeiras</a>
+                            
+                        </li>
+                        
+                    </ul>
+                    
+                </nav>
+                
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                
+            </div>
+            
+        </div>
+        
+    </header>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <img src="images/equipe.png" alt="">
+
+            </div>
+
+            <div class="col-2">
+
+                <h1>Nossa equipe</h1>
+
+                <p>Nossa equipe é composta por um grupo de 7 amigos, tudo começou em uma Quarta-Feira a tarde quando tivemos a ideia de criar um projeto para dar visibilidade e informar as pessoas sobre este assunto que é tão delicado e tão complicado!</p>
+
+                <br>
+
+                <p>Nossa ideia principal não é fazer deste projeto uma ONG ou algo do tipo, tudo que queremos é promover a igualdade, e dar mais visibilidade para esta comunidade que é tão grande e que mesmo em pleno século 21, ainda é muito descriminada e marginalizada.</p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <p>Esta luta, não é de hoje! A muito tempo estamos lutando por esta causa, e tudo indica que esta guerra, ainda ira durar por muitos anos! Hoje em dia a população LGBT no Brasil é de +/- 18 milhões de pessoas (Segundo uma pesquisa da <abbr title="Associação Brasileira de Gays, Lésbicas, Bissexuais, Travestis e Transexuais">ABGLT</abbr> publicada em 19 de fev. de 2021) e mesmo assim o Brasil ainda ocupa o 1° lugar no rank de paises onde existem os maiores indices de assasinatos e de preconceitos contra a comunidade! E o Brasil é o pais onde ocorrem mais mortes de pessoas Transgeneras e Travestis do mundo, segundo a <abbr title="Associação Nacional de Travestis e Transexuais">Antra</abbr>apenas em 2017 foram contabilizados 179 assasinatos de travestis ou transexuais.</p>
+
+            </div>
+
+            <div class="col-2">
+
+                <img src="images/bandeira.png" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <img src="images/Sad.png" alt="">
+
+            </div>
+
+            <div class="col-2">
+
+                <p>Isso significa que, a cada 48 horas, uma pessoa trans é assassinada no Brasil. Em 94% dos casos, os assassinatos foram contra pessoas do gênero feminino. A secretária de Articulação Política da Antra e autora do estudo, Bruna Benevides, disse que a violência está atrelada não ao exercício da sexualidade, mas à identidade de gênero. “A gente diz que o machismo é a semente do ódio e do preconceito. É como se os corpos dessas pessoas que desafiam as normas tivessem que ser expurgados da sociedade. E é isso que a sociedade tem feito”, disse.</p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            
+            <div class="col-2">
+                
+                <h1>Nos ajude nesta causa!</h1>
+                
+                <p>Para informar as pessoas sobre as bandeiras e sobre nossa causa, criamos um sistema de QR codes escaneaveis onde cada QR code ira lhe mostrar uma bandeira ou uma informação diferente sobre a nossa causa! Para saber mais, clique no botão abaixo!</p>
+                
+                <a href="nos-apoie.html" class="btn">Saiba mais!</a>
+                
+            </div>
+            
+            <div class="col-2">
+
+                <img src="images/QR codes.png" alt="">
+
+            </div>
+        
+        </div>
+
+    </div>
+
+    
+    
+    <script>
+
+        let MenuItems = document.querySelector(".MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            
+            if(MenuItems.style.maxHeight == "0px") {
+
+                MenuItems.style.maxHeight = "200px";
+
+            } else {
+
+                MenuItems.style.maxHeight = "0px";
+
+            }
+
+        }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
