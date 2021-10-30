@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../images/fav.ico" type="image/x-icon">
+
+    <title>Arco-Íris</title>
+
+</head>
+
+<body>
+    
+    <header>
+
+        <div class="container">
+
+            <div class="navbar">
+                
+                <div class="logo">
+                    
+                    
+                    <a href="index.html"><img src="../images/LGBT_txt.png" alt="lgbtquia+.png" width="125px"></a>
+                    
+                </div>
+                
+                <nav>
+                    
+                    
+                    <ul class="MenuItems">
+                        
+                        <li>
+                            
+                            <a href="">Sobre nós</a>
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <a href="">Nos apoie</a>
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <a href="../bandeiras.html">Bandeiras</a>
+                            
+                        </li>
+                        
+                    </ul>
+                    
+                </nav>
+                
+                <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()">
+                
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Descrição de produto unico -->
+
+    <div class="small-container single-products">
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <img src="../images/bandeiras/Bandeira LGBTQIA+.png" width="100%" id="FlagImg">
+
+            </div>
+
+            <div class="col-2">
+
+                <p>Gilber Baker</p>
+
+                <h1 class="title-colors">Arco-Íris</h1>
+
+                <h4 class="color-normal">1980</h4>
+
+                <h4>Detalhes sobre a bandeira:</h4>
+
+                <br>
+
+                <p>LGBT é o acrônimo utilizado para se referir às pessoas lésbicas, gays, bissexuais, transgêneros e travestis. Posteriormente, a sigla passa por alterações para incluir outras orientações afetivos-sexuais, identidades e expressões de gênero.</p>
+
+                <br>
+
+                <p>A bandeira do arco-íris tem sido usada como o único símbolo do orgulho LGBT+ e marco dos movimentos sociais LGBTs, embora hoje existam muitas outras bandeiras para reivindicar e nomear outras existências invisibilizadas inicialmente.</p>
+
+                <br>
+
+                <p>Essa banderia arco-Íris está em uso desde 1970, ano em que o movimento homossexual florescia em São Francisco, Califórnia, Estados Unidos. Os militantes da época queriam para a comunidade um símbolo que fosse entusiasta. Assim, o artista Gilbert Baker providenciou um novo modelo baseado nos hippies. Baker era amigo de Harvey Milk, primeiro político gay eleito nos Estados Unidos. Seu uso generalizado começou oficialmente nos anos 1980.</p>
+
+            </div>
+
+            <div class="col-2">
+
+                
+                <h2 class="title-colors">Cores e seus significado</h2>
+                
+                <div class="color-table">
+                    
+                    <h5>Vermelho</h5>
+                    
+                    <p>Representa a vida.</p>    
+                    
+                </div>
+                
+                <div class="color-table">
+                    
+                    <h5>Laranja</h5>
+                    
+                    <p>Representa revigoração e cura.</p>
+                    
+                </div>
+                
+                <div class="color-table">
+                    
+                    <h5>Amarelo</h5>
+
+                    <p>Representa a luz solar.</p>
+
+                </div>
+
+                <div class="color-table">
+
+                    <h5>Verde</h5>
+
+                    <p>Representa a natureza.</p>
+
+                </div>
+
+                <div class="color-table">
+
+                    <h5>Turquesa</h5>
+
+                    <p>Representa a magia e a arte.</p>
+                    
+                </div>
+
+                <div class="color-table">
+
+                    <h5>Índigo</h5>
+
+                    <p>Representa a serenidade.</p>
+                    
+                </div>
+
+                <div class="color-table">
+
+                    <h5>Violeta</h5>
+
+                    <p>Representa o espirito.</p>
+                    
+                </div>
+
+            </div>
+        
+        </div>
+
+    </div>
+
+    <script>
+
+        let MenuItems = document.querySelector(".MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            
+            if(MenuItems.style.maxHeight == "0px") {
+
+                MenuItems.style.maxHeight = "200px";
+
+            } else {
+
+                MenuItems.style.maxHeight = "0px";
+
+            }
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
