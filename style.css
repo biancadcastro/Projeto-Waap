@@ -673,7 +673,7 @@ footer .copyright {
 
 }
 
-.timeline ul li {
+.timeline ul .li-text {
 
     padding: 20px;
 
@@ -687,7 +687,7 @@ footer .copyright {
 
 }
 
-.timeline ul li:last-child {
+.timeline ul .li-text:last-child {
 
     margin-bottom: 0;
 
@@ -735,7 +735,7 @@ footer .copyright {
 
         position: absolute;
 
-        height: 737%;
+        height: 1222%;
 
         width: 2px;
 
@@ -747,7 +747,7 @@ footer .copyright {
 
     }
 
-    .timeline ul li{
+    .timeline ul .li-text{
 
         width: 50%;
 
@@ -759,7 +759,7 @@ footer .copyright {
 
     }
 
-    .timeline ul li:nth-child(odd){
+    .timeline ul .li-text:nth-child(odd){
 
         float: left;
 
@@ -771,7 +771,7 @@ footer .copyright {
 
     }
 
-    .timeline ul li:nth-child(even){
+    .timeline ul .li-text:nth-child(even){
 
         float: right;
 
@@ -783,7 +783,7 @@ footer .copyright {
 
     }
 
-    .timeline ul li::after{
+    .timeline ul .li-text::after{
 
         content: '';
 
@@ -801,7 +801,7 @@ footer .copyright {
 
     }
 
-    .timeline ul li:nth-child(odd)::after{
+    .timeline ul .li-text:nth-child(odd)::after{
 
         transform: translate(50%, -50%);
 
@@ -809,7 +809,7 @@ footer .copyright {
 
     }
 
-    .timeline ul li:nth-child(even)::after{
+    .timeline ul .li-text:nth-child(even)::after{
 
         transform: translate(-50%, -50%);
 
@@ -817,7 +817,7 @@ footer .copyright {
 
     }
 
-    .timeline ul li:hover:after{
+    .timeline ul .li-text:hover:after{
 
         background-color: #c7a001;
 
