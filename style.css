@@ -832,3 +832,27 @@ footer .copyright {
     }
 
 }
+
+@media only screen and (max-width: 400px) {
+
+    .timeline-content .row .col-2 p {
+
+        font-size: 13px;
+        
+        line-height: 20px;
+    
+        font-weight: 250;
+
+        text-align: left;
+
+    }
+
+    .timeline-content .row .col-2 {
+
+        flex-basis: 50%;
+   
+        min-width: 200px;
+
+    }
+
+}
